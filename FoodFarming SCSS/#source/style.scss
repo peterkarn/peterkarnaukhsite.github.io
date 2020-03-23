@@ -1,0 +1,111 @@
+body {
+	font-family: 'Playfair Display', serif;
+	color: #3F4042;
+	padding: 60px;
+
+}
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.header {
+	position: relative;
+}
+
+.grapes {
+	position: absolute;
+	bottom: -4%;
+    left: 56%;
+}
+
+.header__nav {
+	display: flex;
+	padding-bottom: 50px;
+	background: url(../img/leaf.png) 58% 0px no-repeat;
+
+}
+
+.header__nav-list {
+	z-index: 100;
+	display: flex;
+	margin: 0;
+	padding-left: 217px;
+	li {	
+		display: block;
+		cursor: pointer;
+		padding-right: 55px;
+		font-size: 20px;
+		transition: all 0.5s ease;
+		&:nth-child(3) {
+		padding-right: 238px;
+		}
+		&:hover {
+			color: #C08D5D;
+		}
+	}
+
+}
+
+.header__body {
+	background: #FFFAF3;
+	padding: 74px 120px 27px 120px;
+}
+
+.header__body-title {
+	text-transform: uppercase;
+    font-size: 70px;
+    color: #3F4042;
+    max-width: 354px;
+    background: url(../img/outline.svg) 0px 195px no-repeat;
+    padding-bottom: 20px;
+	}
+	span {
+		font-size: 50px;
+		text-transform: none;
+		&:after {
+		content:'';
+		padding: 12px 28px;
+		background: url(../img/leaf.png)  no-repeat;
+	}
+}
+.header__body-text {
+	width: 537px;
+	letter-spacing: 0.1em;
+	line-height: 1.5em;
+	padding-bottom: 79px;
+}
+.header__body-btn {
+	background: #C08D5D;
+	display: block;
+	width: 197px;
+	border: 2px solid #C08D5D;
+	position: relative;
+	a {
+		color: #3F4042;
+		text-decoration: none;
+		background: #fff;
+		padding: 15px 0 15px 12px;
+		display: block;
+		width: 133px;
+		&:after {
+			content: "";
+		    background: url(../img/arrow.png) no-repeat;
+		    padding: 10px;
+		    position: absolute;
+		    top: 40%;
+		    right: 6%;
+		};
+	}
+
+}
+
+
+.mouse  {
+	display: flex;
+	justify-content: center;
+		
+}
+
+
+
